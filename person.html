@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person</title>
+    <link rel="stylesheet" href="person.css" />
+
+    <script src="./person.js" defer></script>
+  </head>
+  <body>
+    <h1>Introduceti datele pentru calcularea indicelui de masa corporala</h1>
+    <div class="container">
+      <label for="input01">Nume:</label>
+      <input
+        type="text"
+        class="input01"
+        id="input01"
+        placeholder="introduceti numele"
+        autofocus
+      />
+
+      <label for="input02">Gen:</label>
+
+      <select id="input02">
+        <option value="Selectare" enabled selected hidden>Selectare</option>
+        <option value="Masculin">Masculin</option>
+        <option value="Feminin">Feminin</option>
+      </select>
+
+      <label for="weight">Introduceti Greutatea</label>
+      <input type="number" id="weight" min="20" max="250" value="0" />
+      <label for="height">Introduceti Inaltimea</label>
+      <input type="number" id="height" min="0" max="04" value="0" />
+
+      <p id="answer" class="answer"></p>
+      <button onclick="calculate()"><a href="#">Calculare</a></button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background-color: lightyellow;
+}
+h1 {
+  color: deepskyblue;
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.container input,
+select {
+  margin-top: 5px;
+  border: none;
+  color: ghostwhite;
+  background-color: mediumslateblue;
+}
+.input01 {
+  width: 150px;
+}
+label {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: mediumturquoise;
+}
+.answer {
+  font-size: 22px;
+  color: goldenrod;
+  font-weight: bold;
+}
+button {
+  font-size: 18px;
+  font-weight: bold;
+  color: coral;
+  background-color: mediumpurple;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+button a {
+  text-decoration: none;
+  color: coral;
+}
+button a:hover {
+  text-decoration: underline;
+  color: lightsalmon;
+}
